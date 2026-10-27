@@ -1,0 +1,52 @@
+name: AmpWorkbenchPhone
+options:
+  bundleIdPrefix: org.example
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "11"
+packages:
+  AmpWorkbench:
+    path: ..
+targets:
+  AmpWorkbenchPhone:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    dependencies:
+      - package: AmpWorkbench
+        product: AmpCore
+      - package: AmpWorkbench
+        product: AmpMIDI
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Amp Workbench
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleURLTypes:
+          - CFBundleURLName: org.example.AmpWorkbenchPhone.sound
+            CFBundleURLSchemes:
+              - ampworkbench
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+  AmpWorkbenchPhoneUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: UITests
+    dependencies:
+      - target: AmpWorkbenchPhone

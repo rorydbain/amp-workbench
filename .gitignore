@@ -1,0 +1,11 @@
+.build/
+/dist/
+.cache/
+.DS_Store
+.swiftpm/
+catalog/node_modules/
+catalog/.wrangler/
+**/xcuserdata/
+research/upstream/
+research/vendor/
+research/protocol.txt

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "target": "yamaha.thr-ii",
+  "name": "Chris Stapleton · Tennessee Whiskey",
+  "description": "Round, restrained soul-country electric tone with a clean center and light edge when played hard. An original THR II interpretation of Stapleton’s broader Jazzmaster/Princeton rig, not verified song-session settings.",
+  "tags": [
+    "Chris Stapleton",
+    "Tennessee Whiskey",
+    "soul",
+    "country",
+    "warm",
+    "Jazzmaster"
+  ],
+  "suggestions": "Start with a Jazzmaster-style neck pickup, guitar tone around 6–8 and volume around 7–9. Play lightly for the spacious phrases; raise guitar volume or pick harder for a little edge. These guitar-control positions are suggested starting points, not documented settings from the recording.",
+  "firmwareConstraints": [],
+  "tone": {
+    "amp": {
+      "model": "THR10C_Deluxe",
+      "parameters": {
+        "Drive": 0.34,
+        "Master": 0.78,
+        "Bass": 0.52,
+        "Mid": 0.56,
+        "Treble": 0.46
+      }
+    },
+    "cabinet": {
+      "model": "speakerSimulator",
+      "parameters": {
+        "SpkSimType": 13
+      }
+    },
+    "compressor": {
+      "model": "RedComp",
+      "parameters": {
+        "Sustain": 0.3,
+        "Level": 0.83,
+        "@enabled": false
+      }
+    },
+    "gate": {
+      "model": "noiseGate",
+      "parameters": {
+        "Thresh": -96,
+        "Decay": 0.05,
+        "@enabled": false
+      }
+    },
+    "modulation": {
+      "model": "StereoSquareChorus",
+      "parameters": {
+        "Freq": 0.04,
+        "Depth": 0.2,
+        "Pre": 0.5,
+        "Feedback": 0.13,
+        "@wetDry": 0.5,
+        "@enabled": false
+      }
+    },
+    "delay": {
+      "model": "TapeEcho",
+      "parameters": {
+        "Time": 0.391,
+        "Feedback": 0.63,
+        "Bass": 0.5,
+        "Treble": 0,
+        "@wetDry": 0.5,
+        "@enabled": false
+      }
+    },
+    "reverb": {
+      "model": "StandardSpring",
+      "parameters": {
+        "Time": 0.38,
+        "Tone": 0.44,
+        "@wetDry": 0.16,
+        "@enabled": true
+      }
+    }
+  }
+}

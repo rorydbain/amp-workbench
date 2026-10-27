@@ -1,0 +1,1834 @@
+{
+  "version": 1,
+  "target": "yamaha.thr-ii",
+  "models": {
+    "amp": [
+      {
+        "id": "THR10C_Deluxe",
+        "name": "Classic Clean",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10C_DC30",
+        "name": "Classic Crunch",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Lead",
+        "name": "Classic Lead",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Modern",
+        "name": "Classic Hi Gain",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Brit",
+        "name": "Classic Special",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Bass_Eden_Marcus",
+        "name": "Classic Bass",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Aco_Condenser1",
+        "name": "Classic Aco",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Flat",
+        "name": "Flat",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10C_BJunior2",
+        "name": "Boutique Clean",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR30_SR101",
+        "name": "Boutique Crunch",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR30_Blondie",
+        "name": "Boutique Lead",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR30_FLead",
+        "name": "Boutique Hi Gain",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10X_South",
+        "name": "Boutique Special",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Bass_Mesa",
+        "name": "Boutique Bass",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Aco_Tube1",
+        "name": "Boutique Aco",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Flat_B",
+        "name": "Flat_MidBoost",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR30_Carmen",
+        "name": "Modern Clean",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10C_Mini",
+        "name": "Modern Crunch",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10X_Brown1",
+        "name": "Modern Lead",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10X_Brown2",
+        "name": "Modern Hi Gain",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR30_Stealth",
+        "name": "Modern Special",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR30_JKBass2",
+        "name": "Modern Bass",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Aco_Dynamic1",
+        "name": "Modern Aco",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      },
+      {
+        "id": "THR10_Flat_V",
+        "name": "Flat_Scoop",
+        "parameters": [
+          {
+            "id": "Drive",
+            "name": "Gain",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Master",
+            "name": "Patch master",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Mid",
+            "name": "Middle",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.5,
+            "unit": "normalized"
+          }
+        ]
+      }
+    ],
+    "modulation": [
+      {
+        "id": "StereoSquareChorus",
+        "name": "Chorus",
+        "parameters": [
+          {
+            "id": "Freq",
+            "name": "Speed",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.04,
+            "unit": "normalized"
+          },
+          {
+            "id": "Depth",
+            "name": "Depth",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.2,
+            "unit": "normalized"
+          },
+          {
+            "id": "Pre",
+            "name": "Pre Delay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Feedback",
+            "name": "Feedback",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.13,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "L6Flanger",
+        "name": "Flanger",
+        "parameters": [
+          {
+            "id": "Freq",
+            "name": "Speed",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.04,
+            "unit": "normalized"
+          },
+          {
+            "id": "Depth",
+            "name": "Depth",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.2,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Phaser",
+        "name": "Phaser",
+        "parameters": [
+          {
+            "id": "Speed",
+            "name": "Speed",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.04,
+            "unit": "normalized"
+          },
+          {
+            "id": "Feedback",
+            "name": "Feedback",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.76,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "BiasTremolo",
+        "name": "Tremolo",
+        "parameters": [
+          {
+            "id": "Speed",
+            "name": "Speed",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.04,
+            "unit": "normalized"
+          },
+          {
+            "id": "Depth",
+            "name": "Depth",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 1,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      }
+    ],
+    "delay": [
+      {
+        "id": "TapeEcho",
+        "name": "Tape Echo",
+        "parameters": [
+          {
+            "id": "Time",
+            "name": "Time",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.391,
+            "unit": "normalized"
+          },
+          {
+            "id": "Feedback",
+            "name": "Feedback",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.63,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "L6DigitalDelay",
+        "name": "L6 Digital Delay",
+        "parameters": [
+          {
+            "id": "Time",
+            "name": "Time",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.391,
+            "unit": "normalized"
+          },
+          {
+            "id": "Feedback",
+            "name": "Feedback",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.38,
+            "unit": "normalized"
+          },
+          {
+            "id": "Bass",
+            "name": "Bass",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.1,
+            "unit": "normalized"
+          },
+          {
+            "id": "Treble",
+            "name": "Treble",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.4,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      }
+    ],
+    "reverb": [
+      {
+        "id": "StandardSpring",
+        "name": "Spring",
+        "parameters": [
+          {
+            "id": "Time",
+            "name": "Reverb",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.25,
+            "unit": "normalized"
+          },
+          {
+            "id": "Tone",
+            "name": "Tone",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "SmallRoom1",
+        "name": "Room",
+        "parameters": [
+          {
+            "id": "Decay",
+            "name": "Decay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.3,
+            "unit": "normalized"
+          },
+          {
+            "id": "PreDelay",
+            "name": "Pre Delay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.15,
+            "unit": "normalized"
+          },
+          {
+            "id": "Tone",
+            "name": "Tone",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "LargePlate1",
+        "name": "Plate",
+        "parameters": [
+          {
+            "id": "Decay",
+            "name": "Decay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.15,
+            "unit": "normalized"
+          },
+          {
+            "id": "PreDelay",
+            "name": "Pre Delay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.3,
+            "unit": "normalized"
+          },
+          {
+            "id": "Tone",
+            "name": "Tone",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "ReallyLargeHall",
+        "name": "Hall",
+        "parameters": [
+          {
+            "id": "Decay",
+            "name": "Decay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.15,
+            "unit": "normalized"
+          },
+          {
+            "id": "PreDelay",
+            "name": "Pre Delay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.1,
+            "unit": "normalized"
+          },
+          {
+            "id": "Tone",
+            "name": "Tone",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@wetDry",
+            "name": "Mix",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.5,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      }
+    ],
+    "compressor": [
+      {
+        "id": "RedComp",
+        "name": "Compressor",
+        "parameters": [
+          {
+            "id": "Sustain",
+            "name": "Sustain",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.3,
+            "unit": "normalized"
+          },
+          {
+            "id": "Level",
+            "name": "Level",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.83,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      }
+    ],
+    "gate": [
+      {
+        "id": "noiseGate",
+        "name": "Noise Gate",
+        "parameters": [
+          {
+            "id": "Thresh",
+            "name": "Threshold",
+            "type": "number",
+            "minimum": -96,
+            "maximum": 0,
+            "default": -96,
+            "unit": "dB"
+          },
+          {
+            "id": "Decay",
+            "name": "Decay",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.05,
+            "unit": "normalized"
+          },
+          {
+            "id": "@enabled",
+            "name": "Enabled",
+            "type": "boolean",
+            "minimum": false,
+            "maximum": true,
+            "default": true,
+            "unit": "boolean"
+          }
+        ]
+      }
+    ],
+    "cabinet": [
+      {
+        "id": "speakerSimulator",
+        "name": "Speaker Simulator",
+        "parameters": [
+          {
+            "id": "SpkSimType",
+            "name": "Type",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 16,
+            "default": 0,
+            "unit": "index"
+          }
+        ]
+      }
+    ]
+  },
+  "firmwarePolicy": "1.30/1.31/1.40/1.42/1.43/1.44 source-derived; other versions require a matching local symbol-table CRC and hardware validation",
+  "physicalOutputControlsExcluded": [
+    "MasterVolume",
+    "GuitarVolume",
+    "AudioVolume",
+    "USBOutLevel",
+    "USBInLevel"
+  ]
+}

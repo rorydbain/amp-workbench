@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "target": "yamaha.thr-ii",
+  "name": "Warm neck breakup",
+  "description": "Warm edge of breakup for neck single coils, subtle spring. Set physical guitar output low by hand.",
+  "tags": [
+    "warm",
+    "single-coil",
+    "breakup"
+  ],
+  "suggestions": "Neck pickup, guitar volume 7\u201310; pick softly for clean. Set bedroom listening volume on the amp.",
+  "firmwareConstraints": [],
+  "tone": {
+    "amp": {
+      "model": "THR10C_Deluxe",
+      "parameters": {
+        "Drive": 0.38,
+        "Master": 0.5,
+        "Bass": 0.42,
+        "Mid": 0.6,
+        "Treble": 0.44
+      }
+    },
+    "modulation": {
+      "model": "StereoSquareChorus",
+      "parameters": {
+        "Freq": 0.04,
+        "Depth": 0.2,
+        "Pre": 0.5,
+        "Feedback": 0.13,
+        "@wetDry": 0.5,
+        "@enabled": false
+      }
+    },
+    "delay": {
+      "model": "TapeEcho",
+      "parameters": {
+        "Time": 0.391,
+        "Feedback": 0.63,
+        "Bass": 0.5,
+        "Treble": 0,
+        "@wetDry": 0.5,
+        "@enabled": false
+      }
+    },
+    "reverb": {
+      "model": "StandardSpring",
+      "parameters": {
+        "Time": 0.25,
+        "Tone": 0.45,
+        "@wetDry": 0.13,
+        "@enabled": true
+      }
+    },
+    "compressor": {
+      "model": "RedComp",
+      "parameters": {
+        "Sustain": 0.3,
+        "Level": 0.83,
+        "@enabled": false
+      }
+    },
+    "gate": {
+      "model": "noiseGate",
+      "parameters": {
+        "Thresh": -96,
+        "Decay": 0.05,
+        "@enabled": false
+      }
+    },
+    "cabinet": {
+      "model": "speakerSimulator",
+      "parameters": {
+        "SpkSimType": 13
+      }
+    }
+  }
+}

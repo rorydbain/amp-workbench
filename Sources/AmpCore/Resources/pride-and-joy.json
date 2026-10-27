@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "target": "yamaha.thr-ii",
+  "name": "Stevie Ray Vaughan · Pride and Joy",
+  "description": "Bright, percussive Texas shuffle with a firm clean core and touch-driven breakup. An original THR II interpretation, not verified studio settings.",
+  "tags": [
+    "Stevie Ray Vaughan",
+    "Pride and Joy",
+    "Texas blues",
+    "shuffle",
+    "single-coil",
+    "warm"
+  ],
+  "suggestions": "Start with a Strat-style neck/middle pickup combination and guitar tone around 8–10; keep guitar volume near 8–10. Dig in for the backbeat and back off for the quieter strokes. This is a playable starting point, not a documented setting from the Texas Flood session. A low-drive mid-forward pedal can add live-style push if desired.",
+  "firmwareConstraints": [],
+  "tone": {
+    "amp": {
+      "model": "THR10C_Deluxe",
+      "parameters": {
+        "Drive": 0.53,
+        "Master": 0.76,
+        "Bass": 0.43,
+        "Mid": 0.62,
+        "Treble": 0.63
+      }
+    },
+    "cabinet": {
+      "model": "speakerSimulator",
+      "parameters": {
+        "SpkSimType": 13
+      }
+    },
+    "compressor": {
+      "model": "RedComp",
+      "parameters": {
+        "Sustain": 0.3,
+        "Level": 0.83,
+        "@enabled": false
+      }
+    },
+    "gate": {
+      "model": "noiseGate",
+      "parameters": {
+        "Thresh": -96,
+        "Decay": 0.05,
+        "@enabled": false
+      }
+    },
+    "modulation": {
+      "model": "StereoSquareChorus",
+      "parameters": {
+        "Freq": 0.04,
+        "Depth": 0.2,
+        "Pre": 0.5,
+        "Feedback": 0.13,
+        "@wetDry": 0.5,
+        "@enabled": false
+      }
+    },
+    "delay": {
+      "model": "TapeEcho",
+      "parameters": {
+        "Time": 0.391,
+        "Feedback": 0.63,
+        "Bass": 0.5,
+        "Treble": 0,
+        "@wetDry": 0.5,
+        "@enabled": false
+      }
+    },
+    "reverb": {
+      "model": "StandardSpring",
+      "parameters": {
+        "Time": 0.27,
+        "Tone": 0.52,
+        "@wetDry": 0.11,
+        "@enabled": true
+      }
+    }
+  }
+}

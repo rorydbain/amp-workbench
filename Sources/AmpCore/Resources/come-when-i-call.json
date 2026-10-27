@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "target": "yamaha.thr-ii",
+  "name": "John Mayer Trio · Come When I Call",
+  "description": "Warm, touch-sensitive electric blues with a clean core and a little bite. An original THR II interpretation of the Trio live sound, not a copy of Mayer's settings.",
+  "tags": ["John Mayer Trio", "Come When I Call", "blues", "semi-hollow", "edge of breakup"],
+  "suggestions": "Start with an ES-335-style neck humbucker or another warm neck pickup. Try guitar volume 6–7 for the groove and 9–10 for fills; tone around 6–8. If using a low-output Strat neck pickup, raise Gain slightly. The amp has no Tube Screamer model in this preset, so add a low-gain mid-forward drive pedal for a more singing solo. Set listening level with the THR's physical output control.",
+  "firmwareConstraints": [],
+  "tone": {
+    "amp": {
+      "model": "THR10C_Deluxe",
+      "parameters": {"Drive": 0.46, "Master": 0.78, "Bass": 0.39, "Mid": 0.66, "Treble": 0.46}
+    },
+    "cabinet": {"model": "speakerSimulator", "parameters": {"SpkSimType": 13}},
+    "compressor": {"model": "RedComp", "parameters": {"Sustain": 0.3, "Level": 0.83, "@enabled": false}},
+    "gate": {"model": "noiseGate", "parameters": {"Thresh": -96, "Decay": 0.05, "@enabled": false}},
+    "modulation": {"model": "StereoSquareChorus", "parameters": {"Freq": 0.04, "Depth": 0.2, "Pre": 0.5, "Feedback": 0.13, "@wetDry": 0.5, "@enabled": false}},
+    "delay": {"model": "TapeEcho", "parameters": {"Time": 0.391, "Feedback": 0.63, "Bass": 0.5, "Treble": 0, "@wetDry": 0.5, "@enabled": false}},
+    "reverb": {"model": "StandardSpring", "parameters": {"Time": 0.3, "Tone": 0.42, "@wetDry": 0.12, "@enabled": true}}
+  }
+}
